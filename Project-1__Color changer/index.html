@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <!-- <script src="script.js"></script> -->
+    <style>
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        #div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button{
+            height: 100px;
+            width: 100px;
+            border: solid 2px black;
+            display: inline-block;
+            margin: 10px;
+        }
+        #white{
+            background-color: white;
+        }
+        #blue{
+            background-color: rgb(32, 32, 88);
+        }
+        #green{
+            background-color: rgb(94, 192, 94);
+        }
+        #purple{
+            background-color: rgb(101, 19, 101);
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Scheme Changer</h1>
+    <div id="div1">
+    <span class="button" id="white"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="green"></span>
+    <span class="button" id="purple"></span></div>
+    <h2>Click the above color to change background</h2>
+    <script src="script.js"></script>
+</body>
+</html>
