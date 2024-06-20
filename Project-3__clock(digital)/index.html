@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi-Clock</title>
+    <style>
+         body {
+        background-color: #212121;
+        color: #fff;
+      }
+      #container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        background-color: orange;
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      h4{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h4>Your local time</h4>
+        <div id="clock"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
